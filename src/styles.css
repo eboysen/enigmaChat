@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.bg{
+    background-image:url(/assets/smallEnigmaMachineBox.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+}
+
+
+@media only screen and (min-width: 1850px){
+    .bg{
+        background-image:url(/assets/enigmaMachineBox.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width:100%;
+    }
+}
+.center{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 95%;
+    
+}
+.centerBlock{
+    position:relative;
+    padding: 20px;
+    display: block;
+    background-color: #424242;
+    align-items: left;
+    justify-content: left;
+    width:90%;
+    height: 90%;
+}
+tr.center{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+}
+.wider{
+    width:200px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
